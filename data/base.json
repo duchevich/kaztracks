@@ -1,0 +1,20 @@
+{
+	"navbarNav": [
+		{
+			"navbarNavName": "Главная",
+			"navbarNavLink": "#"
+		},
+		{
+			"navbarNavName": "Товары",
+			"navbarNavLink": "#"
+		},
+		{
+			"navbarNavName": "Услуги",
+			"navbarNavLink": "#"
+		},
+		{
+			"navbarNavName": "Контакты",
+			"navbarNavLink": "#"
+		}
+	]
+}

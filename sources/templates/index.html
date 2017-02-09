@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	@@include('head')
+	<script data-path="homepage" id="head" type="text/x-handlebars-template">
+		<title>{{pageTitle}}</title>
+	</script>
+</head>
+<body>
+<!-- Modal -->
+	<script data-path="homepage" id="contentModal" type="text/x-handlebars-template">
+		{{#each pageContentModal}}
+			<div class="modal fade" id="{{contentId}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			        
+			      </div>
+			      <div class="modal-body">
+			        <img class="img-modal" src="images/{{contentName}}.png">
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		{{/each}}
+	</script>
+	<div class="modal fade" id="telModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title" id="myModalLabel">Оставьте ваш номер и мы вам перезвоним</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<form class="modal-form" action="#" method="post">
+					<input class="input-1" type="text" name="name" placeholder="Ваше имя" required>
+					<input class="input-3" type="tel" name="telephone" placeholder="Ваш телефон" required>
+					<input class="navbar-button form-button" type="submit" value="Отправить">
+				</form>
+	      </div>
+	      <div class="modal-footer">
+	        <!--<button type="button" class="btn btn-success">Заказать звонок</button>-->
+	        <button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	@@include('navbar')
+	<div class="section">
+		<div class="grid">
+			<div class="container">
+				<img src="images/logo-mega.png">
+				<img src="images/logo-dessange.png">
+				<img src="images/logo-dastarhan.png">
+				<img src="images/logo-khar.png">
+				<img src="images/logo-nelson.png">
+				<img src="images/logo-tub.png">
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="why">
+			<div class="container">
+				<h1>6 главных причин, почему многие компании выбирают нас</h1>
+				<div class="why-left">
+					<div class="why-block">
+						<img class="why-img" src="images/track.png">
+						<h2>Гарантия целосности груза</h2>
+					</div>
+					<div class="why-block">
+						<img class="why-img" src="images/track.png">
+						<h2>Свои складские помещения и фуры</h2>
+					</div>
+					<div class="why-block">
+						<img class="why-img" src="images/track.png">
+						<h2>Профессиональный штат сотрудников</h2>
+					</div>
+				</div>
+				<div class="why-right">
+					<div class="why-block">
+					<img class="why-img" src="images/track.png">
+					<h2>Рассмотрение заявки в день подачи</h2>
+				</div>
+				<div class="why-block">
+					<img class="why-img" src="images/track.png">
+					<h2>Поставки без посредников</h2>
+				</div>
+				<div class="why-block">
+					<img class="why-img" src="images/track.png">
+					<h2>Доставка в кратчайшие сроки по РК и РФ</h2>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="servises">
+			<div class="container">
+				<h1>Наши услуги</h1>
+				<div class="row">
+					<script data-path="homepage" id="content" type="text/x-handlebars-template">
+						{{#each pageContent}}
+							<div class="col-md-3">
+								<div class="servises-box">
+									<img src="images/{{contentName}}.png">
+									<p>{{{contentData}}}</p>
+								</div>
+							</div>
+						{{/each}}
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="what">
+			<div class="container">
+				<h1>Что мы перевозим</h1>
+				<div class="row">
+					<script data-path="homepage" id="content1" type="text/x-handlebars-template">
+						{{#each pageContent1}}
+							<div class="col-md-4">
+								<div class="what-box">
+									<img src="images/{{contentName}}.png">
+									<p>{{{contentData}}}</p>
+								</div>
+							</div>
+						{{/each}}
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="advantages">
+			<div class="container">
+				<h1>Наши преимущества</h1>
+				<div class="row">
+					<script data-path="homepage" id="content2" type="text/x-handlebars-template">
+						{{#each pageContent2}}
+							<div class="col-md-3">
+								<div class="servises-box">
+									<h2>{{contentName}}</h2>
+									<img src="images/{{contentImage}}.png">
+									<p>{{{contentData}}}</p>
+								</div>
+							</div>
+						{{/each}}
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="zakaz">
+			<div class="container">
+				<div class="main-form">
+					<form action="#" method="post">
+						<p>Закажите транспорт <br>прямо сейчас!</p>
+						<input class="input-1" type="text" name="name" placeholder="имя" required>
+						<input class="input-2" type="email" name="email" placeholder="e-mail" required>
+						<input class="input-3" type="tel" name="telephone" placeholder="телефон" required>
+						<input class="navbar-button form-button" type="submit" value="Отправить">
+					</form>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="work">
+			<div class="container">
+				
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="thanks">
+			<div class="container">
+				<h1>Благодарности</h1>
+				<div class="thanks-box">
+					<script data-path="homepage" id="thanksModal" type="text/x-handlebars-template">
+						{{#each pageContentModal}}
+							<img data-toggle="modal" data-target="#{{contentId}}" class="img" src="images/{{contentName}}.png">
+						{{/each}}
+					</script>
+				</div>
+				<div id="clone" class="clone"></div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="reviews">
+			<div class="container">
+				
+			</div>
+		</div>
+	</div>
+	@@include('footer')
+	@@include('scripts')
+</body>
+</html>

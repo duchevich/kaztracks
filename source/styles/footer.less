@@ -1,0 +1,40 @@
+.footer{
+	.container{
+	position: relative;
+	min-height: 100px;
+		.container-line {
+	    position: absolute;
+	    background-color: @c-primary;
+	    &.container-line-hor {
+	      height: 1px;
+	      &.container-line-hor-first {
+	        //bottom: -10px;
+	        left:-55px;
+	        width: calc(~"100% + 150px");
+	      }
+	     }
+		}
+}
+}
+
+.footer-logo{
+	text-align: center;
+	margin-top: 35px;
+	font-size: 12px;
+	color: @c-primary;
+}
+.footer-copyright{}
+
+.footer-line{
+	//position: absolute;
+    background-color: @c-primary;
+	  height: 1px;
+	  bottom: 100px;
+	  
+	  width:100%;
+}
+@media screen and (max-width: 768px){
+	.footer-line{
+		width: 90%;
+	}
+}

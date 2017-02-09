@@ -1,0 +1,57 @@
+@iconfont-name:iconfont;
+
+@font-face{
+	font-family:'@{iconfont-name}';
+	font-weight:normal;
+	font-style:normal;
+	src:url('../fonts/@{iconfont-name}.eot');
+	src:url('../fonts/@{iconfont-name}.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/@{iconfont-name}.woff') format('woff'),
+		url('../fonts/@{iconfont-name}.ttf') format('truetype'),
+		url('../fonts/@{iconfont-name}#iconfontregular') format('svg');
+}
+@media screen and ('-webkit-min-device-pixel-ratio:0'){
+	@font-face{
+		font-family:@iconfont-name;
+		src:url('../fonts/@{iconfont-name}') format('svg');
+	}
+}
+
+[class*="icon-"]{
+	font-family:@iconfont-name;
+}
+	
+.icon-example{&:before{content:'\e900';}}
+.icon-facebook{&:before{content:'\e900';}}
+.icon-vkontakte{&:before{content:'\e900';}}
+.icon-instagram{&:before{content:'\e900';}}
+.icon-twitter{&:before{content:'\e900';}}
+.icon-linkedin{&:before{content:'\e900';}}
+
+.social-btn{
+	&.icon-facebook{
+		&:hover{}
+		&:focus,
+		&:active{}
+	}
+	&.icon-vkontakte{
+		&:hover{}
+		&:focus,
+		&:active{}
+	}
+	&.icon-instagram{
+		&:hover{}
+		&:focus,
+		&:active{}
+	}
+	&.icon-twitter{
+		&:hover{}
+		&:focus,
+		&:active{}
+	}
+	&.icon-linkedin{
+		&:hover{}
+		&:focus,
+		&:active{}
+	}
+}

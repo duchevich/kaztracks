@@ -1,0 +1,280 @@
+doctype
+html(lang="ru")
+
+	head
+		include includes/head
+	body
+		div.modal.fade#myModal(role="dialog")
+			div.modal-dialog
+				div.modal-content
+					div.modal-header
+						button(type="button" class="close" data-dismiss="modal" aria-hidden="true") &times;
+						h3.modal-title Зробити замовлення:
+					form(action="")
+						div.modal-body
+							div.form-group
+								label(for="myEmail") Введіть ваш e-mail
+								input#myEmail(type="email" name="myEmail" required)
+							div.form-group
+								label.control-label(for='feedback') Ваше замовлення
+								textarea#feedback.form-control(name='feedback', rows='12')
+						div.modal-footer
+							button.btn.btn-primary Надіслати
+		include includes/navbar
+		main
+
+			div.section.section-home#home
+				div.container
+					a.head-image.hidden-xs.hidden-sm(href="#")
+						img(src="/images/fly.png", alt="header picture")
+					div.container-line.container-line-hor.container-line-hor-first.hidden-xs.hidden-sm
+					div.container-line.container-line-hor.container-line-hor-last.hidden-xs.hidden-sm
+					div.container-line.container-line-ver.container-line-ver-first.hidden-xs.hidden-sm
+					div.container-line.container-line-ver.container-line-ver-last.hidden-xs.hidden-sm
+					div.row
+						div.col-xs-12.col-sm-12.col-md-8.col-md-offset-2
+							div.section-home-main
+								img.img-logo.hidden-xs.hidden-sm(src="/images/logo.gif", alt="header picture")
+								div.title-line.title-line1.hidden-xs.hidden-sm
+								h1 Від візитки до білборда
+								h2 Цифрова та широкоформатна поліграфія
+								div.title-line.title-line2
+								p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <br>consequat. 
+								button.main-button(href="#myModal" role="button" data-toggle="modal") Замовити							
+					a.section-home-visitka.hidden-xs.hidden-sm(href="#myModal" role="button" data-toggle="modal")
+						img(src="/images/visitka.png" alt="visitka")
+			div.section.section-products#products
+				h3.section-title Наші товари
+				div.container#container
+					div.wrap.item.color1
+						div.front.img
+							h4 Візитки
+							img.width1(src="images/visitki.png", alt="visitka")
+						div.back.img.back-hor
+							h4 Візитки
+							p термін виконання:  від 3 днів
+							p від 49 грн за 100 штук
+							a(href="#myModal" role="button" data-toggle="modal")
+								img.buy-icon(src="images/buy.png", alt="buy")
+					div.wrap.item.item-ver.color2
+						div.front.img
+							h4 Календарі
+							img.width4(src="images/calendar.png", alt="calendar")
+						div.back.img.back-hor
+							h4 Календарі
+							p термін виконання:  від 3 днів
+							p від 49 грн за 100 штук
+							a(href="#myModal" role="button" data-toggle="modal")
+								img.buy-icon(src="images/buy.png", alt="buy")
+					div.wrap.item.color3
+						div.front.img.img-ver
+							h4 Плакати
+							img.width3(src="images/plakat_img1.png", alt="plakat")
+						div.back.img.img-ver.back-ver
+							h4 Плакати
+							p термін виконання:  від 3 днів
+							p від 49 грн за 100 штук
+							a(href="#myModal" role="button" data-toggle="modal")
+								img.buy-icon(src="images/buy.png", alt="buy")
+					div.wrap.item.color4
+						div.front.img
+							img.width4(src="images/broshura.png", alt="broshura")
+							h4 Брошури
+						div.back.img.back-hor
+							h4 Брошури
+							p термін виконання:  від 3 днів
+							p від 49 грн за 100 штук
+							a(href="#myModal" role="button" data-toggle="modal")
+								img.buy-icon(src="images/buy.png", alt="buy")
+					div.wrap.item.color5
+						div.front.img.img-ver
+							img.width2(src="images/buclet.png", alt="buclet")
+							h4 Буклети
+						div.back.img.img-ver.back-ver
+							h4 Буклети
+							p термін виконання:  від 3 днів
+							p від 49 грн за 100 штук
+							a(href="#myModal" role="button" data-toggle="modal")
+								img.buy-icon(src="images/buy.png", alt="buy")
+					div.wrap.item.color6
+						div.front.img
+							img.width3(src="images/papka.png", alt="papka")
+							h4 Папки
+						div.back.img.back-hor
+							h4 Папки
+							p термін виконання:  від 3 днів
+							p від 49 грн за 100 штук
+							a(href="#myModal" role="button" data-toggle="modal")
+								img.buy-icon(src="images/buy.png", alt="buy")
+					div.wrap.item.color7
+						div.front.img.img-ver
+							h4 Конверти
+							img.width1(src="images/konvert.png", alt="konvert")
+						div.back.img.img-ver.back-ver
+							h4 Конверти
+							p термін виконання:  від 3 днів
+							p від 49 грн за 100 штук
+							a(href="#myModal" role="button" data-toggle="modal")
+								img.buy-icon(src="images/buy.png", alt="buy")
+					div.wrap.item.color8
+						div.front.img
+							h4 Каталоги
+							img.width3(src="images/katalog.png", alt="katalog")
+						div.back.img.back-hor
+							h4 Каталоги
+							p термін виконання:  від 3 днів
+							p від 49 грн за 100 штук
+							a(href="#myModal" role="button" data-toggle="modal")
+								img.buy-icon(src="images/buy.png", alt="buy")
+					div.wrap.item.item-hor.color9
+						div.front.img.img-ver
+							img.width5.img-9-title(src="images/flayer.png", alt="flayer")
+							h4 Флаєри
+						div.back.img.img-ver.back-ver
+							div.back-item9-p
+								p термін виконання:  від 3 днів
+								p від 49 грн за 100 штук
+								a(href="#myModal" role="button" data-toggle="modal")
+									img.buy-icon(src="images/buy.png", alt="buy")
+							div.back-item9-h
+								h4 Флаєри
+					div.wrap.item.color10
+						div.front.img
+							img.width2(src="images/otkritka.png", alt="otkritka")
+							h4 Листівки
+						div.back.img.back-hor
+							h4 Листівки
+							p термін виконання:  від 3 днів
+							p від 49 грн за 100 штук
+							a(href="#myModal" role="button" data-toggle="modal")
+								img.buy-icon(src="images/buy.png", alt="buy")
+			div.section.section-services#services
+				div.container
+					h3.section-title Наші послуги
+					div.wrapper
+						ul#sb-slider.sb-slider
+							li
+								a(href="#"): img(src="/images/tipleft.jpg", alt="tipleft")
+								div.sb-description
+									h3 Широкоформатний друк
+							li
+								a(href="#"): img(src="/images/offset.jpg", alt="ofset")
+								div.sb-description
+									h3 Офсетний друк
+							li
+								a(href="#"): img(src="/images/digitalprint.jpg", alt="tipleft")
+								div.sb-description
+									h3 Цифровий друк
+							li
+								a(href="#"): img(src="/images/tipleft.jpg", alt="tipleft")
+								div.sb-description
+									h3 Широкоформатний друк
+							li
+								a(href="#"): img(src="/images/offset.jpg", alt="ofset")
+								div.sb-description
+									h3 Офсетний друк
+							li
+								a(href="#"): img(src="/images/digitalprint.jpg", alt="tipleft")
+								div.sb-description
+									h3 Цифровий друк
+						div#shadow.shadow
+						div#nav-arrows.nav-arrows
+							a(href='#') Next
+							a(href='#') Previous
+						div#nav-dots.nav-dots
+							span.nav-dot-current
+							span
+							span
+							span
+							span
+							span
+			div.section.section-contacts#contacts
+				div.container
+					h3.section-title Ми знаходимось:
+					div.row
+						div.hidden-xs.col-xs-12.col-sm-12.col-md-7
+							div.contacts-map
+								iframe(src='https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6318.190776742636!2d25.965681404639923!3d48.25529086573264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1482093082638', width='560', height='450', frameborder='0', style='border:0', allowfullscreen='')
+						div.col-xs-12.col-sm-12.col-md-5
+								div.contacts-text
+									div.row.contact-text-line
+										div.col-xs-4.col-sm-4.col-md-4
+											h5.h5-products Наша адреса:
+										div.col-xs-8.col-sm-8.col-md-8
+											p 00000 м.Чернівці вул.Головна 000/00
+									div.row.contact-text-line
+										div.col-xs-4.col-sm-4.col-md-4
+											h5 Наші телефони:
+										div.col-xs-8.col-sm-8.col-md-8
+											a(href="tel:0000000000") (000) 000-00-00 
+											br
+											a(href="tel:0000000000") (000) 000-00-00 
+									div.row.contact-text-line
+										div.col-xs-4.col-sm-4.col-md-4
+											h5 Наш e-mail:
+										div.col-xs-8.col-sm-8.col-md-8
+											a(href="mailto:example@example.com") example@example.com
+									div.row.contact-text-line
+										div.col-xs-4.col-sm-4.col-md-4
+											h5 Ми в мережах:
+										div.col-xs-8.col-sm-8.col-md-8
+											a.socicon-btn(href='http://google.com/+')
+												svg(width='66px', height='42px', viewbox='0 0 66 42', version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink')
+													// Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch
+													title GooglePlus-color
+													desc Created with Sketch.
+													defs
+													g#Icons(stroke='none', stroke-width='1', fill='none', fill-rule='evenodd')
+														g#Color-(transform='translate(-391.000000, -163.000000)', fill='#F93F2D')
+															path#GooglePlus(d='M449.735849,180.257426 L449.735849,172.980198 L444.54717,172.980198 L444.54717,180.257426 L437.075472,180.257426 L437.075472,185.455446 L444.54717,185.455446 L444.54717,192.940594 L449.735849,192.940594 L449.735849,185.455446 L457,185.455446 L457,180.257426 L449.735849,180.257426 L449.735849,180.257426 Z M411.962264,179.841584 L411.962264,188.158416 C411.962264,188.158416 420.015925,188.147604 423.29517,188.147604 C421.519396,193.539198 418.758189,196.475248 411.962264,196.475248 C405.084774,196.475248 399.716981,190.889871 399.716981,184 C399.716981,177.110129 405.084774,171.524752 411.962264,171.524752 C415.598491,171.524752 417.946887,172.805129 420.101019,174.589713 C421.825321,172.862307 421.681283,172.616129 426.068208,168.465822 C422.344189,165.070059 417.394604,163 411.962264,163 C400.385075,163 391,172.40197 391,184 C391,195.597822 400.385075,205 411.962264,205 C429.266925,205 433.496528,189.90495 432.09434,179.841584 L411.962264,179.841584 L411.962264,179.841584 Z')
+
+											a.socicon-btn(href='http://www.facebook.com/')
+												svg(width='48px', height='48px', viewbox='0 0 48 48', version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink')
+													// Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch
+													title Facebook-color
+													desc Created with Sketch.
+													defs
+													g#Icons(stroke='none', stroke-width='1', fill='none', fill-rule='evenodd')
+														g#Color-(transform='translate(-200.000000, -160.000000)', fill='#4460A0')
+															path#Facebook(d='M225.638355,208 L202.649232,208 C201.185673,208 200,206.813592 200,205.350603 L200,162.649211 C200,161.18585 201.185859,160 202.649232,160 L245.350955,160 C246.813955,160 248,161.18585 248,162.649211 L248,205.350603 C248,206.813778 246.813769,208 245.350955,208 L233.119305,208 L233.119305,189.411755 L239.358521,189.411755 L240.292755,182.167586 L233.119305,182.167586 L233.119305,177.542641 C233.119305,175.445287 233.701712,174.01601 236.70929,174.01601 L240.545311,174.014333 L240.545311,167.535091 C239.881886,167.446808 237.604784,167.24957 234.955552,167.24957 C229.424834,167.24957 225.638355,170.625526 225.638355,176.825209 L225.638355,182.167586 L219.383122,182.167586 L219.383122,189.411755 L225.638355,189.411755 L225.638355,208 L225.638355,208 Z')
+
+	
+											a.socicon-btn(href='http://www.linkedin.com/')
+												svg(width='44px', height='40px', viewbox='0 0 44 40', version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink')
+													// Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch
+													title LinkedIn-color
+													desc Created with Sketch.
+													defs
+													g#Icons(stroke='none', stroke-width='1', fill='none', fill-rule='evenodd')
+														g#Color-(transform='translate(-702.000000, -265.000000)', fill='#007EBB')
+															path#LinkedIn(d='M746,305 L736.2754,305 L736.2754,290.9384 C736.2754,287.257796 734.754233,284.74515 731.409219,284.74515 C728.850659,284.74515 727.427799,286.440738 726.765522,288.074854 C726.517168,288.661395 726.555974,289.478453 726.555974,290.295511 L726.555974,305 L716.921919,305 C716.921919,305 717.046096,280.091247 716.921919,277.827047 L726.555974,277.827047 L726.555974,282.091631 C727.125118,280.226996 730.203669,277.565794 735.116416,277.565794 C741.21143,277.565794 746,281.474355 746,289.890824 L746,305 L746,305 Z M707.17921,274.428187 L707.117121,274.428187 C704.0127,274.428187 702,272.350964 702,269.717936 C702,267.033681 704.072201,265 707.238711,265 C710.402634,265 712.348071,267.028559 712.41016,269.710252 C712.41016,272.34328 710.402634,274.428187 707.17921,274.428187 L707.17921,274.428187 L707.17921,274.428187 Z M703.109831,277.827047 L711.685795,277.827047 L711.685795,305 L703.109831,305 L703.109831,277.827047 L703.109831,277.827047 Z')
+
+											a.socicon-btn(href='http://twitter.com/')
+												svg(width='48px', height='40px', viewbox='0 0 48 40', version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink')
+													// Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch
+													title Twitter-color
+													desc Created with Sketch.
+													defs
+													g#Icons(stroke='none', stroke-width='1', fill='none', fill-rule='evenodd')
+														g#Color-(transform='translate(-300.000000, -164.000000)', fill='#00AAEC')
+															path#Twitter(d='M348,168.735283 C346.236309,169.538462 344.337383,170.081618 342.345483,170.324305 C344.379644,169.076201 345.940482,167.097147 346.675823,164.739617 C344.771263,165.895269 342.666667,166.736006 340.418384,167.18671 C338.626519,165.224991 336.065504,164 333.231203,164 C327.796443,164 323.387216,168.521488 323.387216,174.097508 C323.387216,174.88913 323.471738,175.657638 323.640782,176.397255 C315.456242,175.975442 308.201444,171.959552 303.341433,165.843265 C302.493397,167.339834 302.008804,169.076201 302.008804,170.925244 C302.008804,174.426869 303.747139,177.518238 306.389857,179.329722 C304.778306,179.280607 303.256911,178.821235 301.9271,178.070061 L301.9271,178.194294 C301.9271,183.08848 305.322064,187.17082 309.8299,188.095341 C309.004402,188.33225 308.133826,188.450704 307.235077,188.450704 C306.601162,188.450704 305.981335,188.390033 305.381229,188.271578 C306.634971,192.28169 310.269414,195.2026 314.580032,195.280607 C311.210424,197.99061 306.961789,199.605634 302.349709,199.605634 C301.555203,199.605634 300.769149,199.559408 300,199.466956 C304.358514,202.327194 309.53689,204 315.095615,204 C333.211481,204 343.114633,188.615385 343.114633,175.270495 C343.114633,174.831347 343.106181,174.392199 343.089276,173.961719 C345.013559,172.537378 346.684275,170.760563 348,168.735283')
+
+											a.socicon-btn(href='http://youtube.com/')
+												svg(width='48px', height='34px', viewbox='0 0 48 34', version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink')
+													// Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch
+													title Youtube-color
+													desc Created with Sketch.
+													defs
+													g#Icons(stroke='none', stroke-width='1', fill='none', fill-rule='evenodd')
+														g#Color-(transform='translate(-200.000000, -368.000000)', fill='#CE1312')
+															path#Youtube(d='M219.044,391.269916 L219.0425,377.687742 L232.0115,384.502244 L219.044,391.269916 Z M247.52,375.334163 C247.52,375.334163 247.0505,372.003199 245.612,370.536366 C243.7865,368.610299 241.7405,368.601235 240.803,368.489448 C234.086,368 224.0105,368 224.0105,368 L223.9895,368 C223.9895,368 213.914,368 207.197,368.489448 C206.258,368.601235 204.2135,368.610299 202.3865,370.536366 C200.948,372.003199 200.48,375.334163 200.48,375.334163 C200.48,375.334163 200,379.246723 200,383.157773 L200,386.82561 C200,390.73817 200.48,394.64922 200.48,394.64922 C200.48,394.64922 200.948,397.980184 202.3865,399.447016 C204.2135,401.373084 206.612,401.312658 207.68,401.513574 C211.52,401.885191 224,402 224,402 C224,402 234.086,401.984894 240.803,401.495446 C241.7405,401.382148 243.7865,401.373084 245.612,399.447016 C247.0505,397.980184 247.52,394.64922 247.52,394.64922 C247.52,394.64922 248,390.73817 248,386.82561 L248,383.157773 C248,379.246723 247.52,375.334163 247.52,375.334163 L247.52,375.334163 Z')
+
+											
+								
+	
+             
+		include includes/footer
+		script(src='https://code.jquery.com/jquery-3.1.1.min.js', integrity='sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=', crossorigin='anonymous')
+		script(src="scripts/pack.min.js")
+		script(type='text/javascript', src='/scripts/jquery.slicebox.js')
+		

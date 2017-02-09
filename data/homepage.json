@@ -1,0 +1,110 @@
+	{
+	"pageTitle": "Интернет-магазин",
+	"pageContent": [
+		{
+			"contentName": "servises1",
+			"contentData": "Все виды ВИЗ<br><span>от 10 000тг</span>"
+		},
+		{
+			"contentName": "servises2",
+			"contentData": "Переводчик с личным авто<br><span>бесплатно</span>"
+		},
+		{
+			"contentName": "servises3",
+			"contentData": "Бронирование билетов и<br>номера в 3*-5* отелях<br>Китая <span>от 30$/сут</span>"
+		},
+		{
+			"contentName": "servises4",
+			"contentData": "Поездка на заводы и<br>магазины <span>бесплатно</span>"
+		},
+		{
+			"contentName": "servises5",
+			"contentData": "Доставка груза<br>от <span>300$/м3</span>"
+		},
+		{
+			"contentName": "servises6",
+			"contentData": "Экспресс доставка<br>от <span>6$/кг</span>"
+		},
+		{
+			"contentName": "servises7",
+			"contentData": "Контейнерные перевозки<br>от <span>5000$</span>"
+		},
+		{
+			"contentName": "servises8",
+			"contentData": "Помощь с заключением<br>контрактов, сделок"
+		}
+	],
+	"pageContent1": [
+		{
+			"contentName": "what1",
+			"contentData": "Мебель для дома: спальная, гостиная<br>кухонная, ванная"
+		},
+		{
+			"contentName": "what2",
+			"contentData": "Мебель и оборудование для салонов<br>красоты, гостиниц, ресторанов,<br>кафе, магазинов, офисов"
+		},
+		{
+			"contentName": "what3",
+			"contentData": "Производственное оборудование:<br>станки, производственные линии,<br>устройства, инструменты"
+		},
+		{
+			"contentName": "what4",
+			"contentData": "Строительные материалы:<br>сантехника, кафель, гранит, паркет,<br>ламинат, обои"
+		},
+		{
+			"contentName": "what5",
+			"contentData": "Осветительное оборудование:<br>лампы, люстры, прожекторы"
+		},
+		{
+			"contentName": "what6",
+			"contentData": "И многое другое!"
+		}
+	],
+	"pageContent2": [
+		{
+			"contentName": "консультации",
+			"contentImage": "advant1",
+			"contentData": "Оперативно окажем<br>консультацию и доставим<br>товар в любой регион<br>Казахстана и РФ"
+		},
+		{
+			"contentName": "гарантии",
+			"contentImage": "advant2",
+			"contentData": "Гарантия целостности<br>груза и замена<br>испорченного товара"
+		},
+		{
+			"contentName": "варианты оплаты",
+			"contentImage": "advant3",
+			"contentData": "Подготовим все документы<br> без задержек<br>самостоятельно"
+		},
+		{
+			"contentName": "сертификаты",
+			"contentImage": "advant4",
+			"contentData": "Мы официально<br>зарегистрированная<br>компания"
+		}
+	],
+	"pageContentModal": [
+		{
+			"contentName": "thanks1",
+			"contentId": "myModal1"
+			
+		},
+		{
+			"contentName": "thanks2",
+			"contentId": "myModal2"
+			
+		},
+		{
+			"contentName": "thanks3",
+			"contentId": "myModal3"
+			
+		},
+		{
+			"contentName": "thanks4",
+			"contentId": "myModal4"			
+		},
+		{
+			"contentName": "thanks5",
+			"contentId": "myModal5"			
+		}
+	]
+}

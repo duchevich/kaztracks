@@ -1,0 +1,18 @@
+.parallax(@background){
+	background:url(@background) center no-repeat;
+	background-size:cover!important;
+	background-attachment:fixed!important;
+}
+
+.t-shadow(@position:@shadow-position,@blur:@shadow-blur,@color:@shadow-color,@opacity:@shadow-opacity){
+	text-shadow:@position @blur fade(@color,@opacity);
+}
+.b-shadow(@position:@shadow-position,@blur:@shadow-blur,@color:@shadow-color,@opacity:@shadow-opacity){
+	box-shadow:@position @blur fade(@color,@opacity);
+}
+.b-shadow-inset(@position:@shadow-position,@blur:@shadow-blur,@color:@shadow-color,@opacity:@shadow-opacity){
+	box-shadow:inset @position @blur fade(@color,@opacity);
+}
+.b-shadow-twoside(@position:@shadow-position,@blur:@shadow-blur,@color:@shadow-color,@opacity:@shadow-opacity){
+	box-shadow:@position @blur fade(@color,@opacity),inset @position @blur fade(@color,@opacity);
+}

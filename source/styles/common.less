@@ -1,0 +1,48 @@
+body{
+	font-family:@font-family;
+	color:@c-dark;
+	font-size:@font-size;
+	line-height:1.5;
+}
+::selection{
+	background:lighten(@c-dark,15%);
+	color:fade(@c-light,60%);
+	text-shadow:none;
+}
+a{
+	color:@c-primary;
+	&:hover,
+	&:focus,
+	&:active{
+		color:darken(@c-primary,15%);
+	}
+}
+
+
+/*---- WRAP ----*/
+.wrap {
+  position: relative;
+  perspective: 2000px;
+  perspective-origin: 50% 50%;
+  transition: all 1s ease-in-out;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  transform: rotateX(0deg);
+  margin-bottom: 20px;
+  float: left;
+}
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  left: 0;
+}
+.back-hor {
+	transform: rotateY(180deg);
+}
+.back-ver {
+	transform: rotateX(180deg);
+	padding: 20px;
+}

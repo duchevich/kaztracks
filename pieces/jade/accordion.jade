@@ -1,0 +1,22 @@
+div.panel-group(role="tablist", aria-multiselectable="true")#accordion
+
+	div.panel
+		div.panel-heading(role="tab")#headingOne
+			h4.panel-title
+				a(role="button", data-toggle="collapse", data-parent="#accordion", href="#collapseOne", aria-expanded="true", aria-controls="collapseOne")
+		div.panel-collapse.collapse.in(role="tabpanel", aria-labelledby="headingOne")#collapseOne
+			div.panel-body
+				
+	div.panel
+		div.panel-heading(role="tab")#headingTwo
+			h4.panel-title
+				a.collapsed(role="button", data-toggle="collapse", data-parent="#accordion", href="#collapseTwo", aria-expanded="false", aria-controls="collapseTwo")
+		div.panel-collapse.collapse(role="tabpanel", aria-labelledby="headingTwo")#collapseTwo
+			div.panel-body
+
+	div.panel.contact-if
+		div.panel-heading(role="tab")#headingThree
+			h4.panel-title
+				a.collapsed(role="button", data-toggle="collapse", data-parent="#accordion", href="#collapseThree", aria-expanded="false", aria-controls="collapseThree")
+		div.panel-collapse.collapse(role="tabpanel", aria-labelledby="headingThree")#collapseThree
+			div.panel-body

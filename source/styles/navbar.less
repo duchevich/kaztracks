@@ -1,0 +1,48 @@
+
+
+.navbar-header{}
+.navbar-logo>img{
+	margin-top: 10px;
+	width: 100px;
+}
+
+.navbar-nav{
+	margin-top: 54px;
+	text-transform: uppercase;
+	font-size: 12px;
+	li{
+		a{
+			width: 110px;
+			&:hover,
+			&:focus,
+			&:active{}
+		}
+	}
+}
+
+.navbar-fixed-top{
+	right: 400px;
+}
+.navbar-setout{
+	margin-top: 0;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+.navbar-setout>ul{
+	margin-top: 0;
+}
+
+@media screen and (max-width: 970px){
+	.navbar-nav{
+		margin-top: 0;
+	}
+	
+}
+
+@media screen and (max-width: 750px){
+	.navbar-fixed-top{
+	right: 0;
+	}
+	.navbar{
+	background-color: rgba(255, 255, 255, 0.9);
+}
+}
