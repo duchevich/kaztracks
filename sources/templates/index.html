@@ -51,7 +51,7 @@
 	</div>
 	@@include('navbar')
 	<div class="section">
-		<div class="grid">
+		<div class="grid hidden-xs">
 			<div class="container">
 				<img src="images/logo-mega.png">
 				<img src="images/logo-dessange.png">
@@ -66,31 +66,31 @@
 		<div class="why">
 			<div class="container">
 				<h1>6 главных причин, почему многие компании выбирают нас</h1>
-				<div class="why-left">
+				<div class="why-left col-xs-12">
 					<div class="why-block">
-						<img class="why-img" src="images/track.png">
+						<img class="why-img hidden-xs" src="images/track.png">
 						<h2>Гарантия целосности груза</h2>
 					</div>
 					<div class="why-block">
-						<img class="why-img" src="images/track.png">
+						<img class="why-img hidden-xs" src="images/track.png">
 						<h2>Свои складские помещения и фуры</h2>
 					</div>
 					<div class="why-block">
-						<img class="why-img" src="images/track.png">
+						<img class="why-img hidden-xs" src="images/track.png">
 						<h2>Профессиональный штат сотрудников</h2>
 					</div>
 				</div>
-				<div class="why-right">
+				<div class="why-right col-xs-12">
 					<div class="why-block">
-					<img class="why-img" src="images/track.png">
+					<img class="why-img hidden-xs" src="images/track.png">
 					<h2>Рассмотрение заявки в день подачи</h2>
 				</div>
 				<div class="why-block">
-					<img class="why-img" src="images/track.png">
+					<img class="why-img hidden-xs" src="images/track.png">
 					<h2>Поставки без посредников</h2>
 				</div>
 				<div class="why-block">
-					<img class="why-img" src="images/track.png">
+					<img class="why-img hidden-xs" src="images/track.png">
 					<h2>Доставка в кратчайшие сроки по РК и РФ</h2>
 				</div>
 				</div>
@@ -104,7 +104,7 @@
 				<div class="row">
 					<script data-path="homepage" id="content" type="text/x-handlebars-template">
 						{{#each pageContent}}
-							<div class="col-md-3">
+							<div class="col-xs-6 col-md-3">
 								<div class="servises-box">
 									<img src="images/{{contentName}}.png">
 									<p>{{{contentData}}}</p>
@@ -123,7 +123,7 @@
 				<div class="row">
 					<script data-path="homepage" id="content1" type="text/x-handlebars-template">
 						{{#each pageContent1}}
-							<div class="col-md-4">
+							<div class="col-xs-12 col-sm-4 col-md-4">
 								<div class="what-box">
 									<img src="images/{{contentName}}.png">
 									<p>{{{contentData}}}</p>
@@ -142,7 +142,7 @@
 				<div class="row">
 					<script data-path="homepage" id="content2" type="text/x-handlebars-template">
 						{{#each pageContent2}}
-							<div class="col-md-3">
+							<div class="col-xs-12 col-sm-6 col-md-3">
 								<div class="servises-box">
 									<h2>{{contentName}}</h2>
 									<img src="images/{{contentImage}}.png">
@@ -178,7 +178,7 @@
 		</div>
 	</div>
 	<div class="section">
-		<div class="thanks">
+		<div class="thanks hidden-xs">
 			<div class="container">
 				<h1>Благодарности</h1>
 				<div class="thanks-box">

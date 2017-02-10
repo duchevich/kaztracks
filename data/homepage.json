@@ -3,7 +3,7 @@
 	"pageContent": [
 		{
 			"contentName": "servises1",
-			"contentData": "Все виды ВИЗ<br><span>от 10 000тг</span>"
+			"contentData": "Все виды ВИЗ <br class=\"hidden-xs\"><span>от 10 000тг</span>"
 		},
 		{
 			"contentName": "servises2",
@@ -11,11 +11,11 @@
 		},
 		{
 			"contentName": "servises3",
-			"contentData": "Бронирование билетов и<br>номера в 3*-5* отелях<br>Китая <span>от 30$/сут</span>"
+			"contentData": "Бронирование билетов и <br class=\"hidden-xs\">номера в 3*-5* отелях<br>Китая <span>от 30$/сут</span>"
 		},
 		{
 			"contentName": "servises4",
-			"contentData": "Поездка на заводы и<br>магазины <span>бесплатно</span>"
+			"contentData": "Поездка на заводы и <br class=\"hidden-xs\">магазины <span>бесплатно</span>"
 		},
 		{
 			"contentName": "servises5",
@@ -37,23 +37,23 @@
 	"pageContent1": [
 		{
 			"contentName": "what1",
-			"contentData": "Мебель для дома: спальная, гостиная<br>кухонная, ванная"
+			"contentData": "Мебель для дома: спальная, гостиная <br class=\"hidden-xs\">кухонная, ванная"
 		},
 		{
 			"contentName": "what2",
-			"contentData": "Мебель и оборудование для салонов<br>красоты, гостиниц, ресторанов,<br>кафе, магазинов, офисов"
+			"contentData": "Мебель и оборудование для салонов <br class=\"hidden-xs\">красоты, гостиниц, ресторанов, <br class=\"hidden-xs\">кафе, магазинов, офисов"
 		},
 		{
 			"contentName": "what3",
-			"contentData": "Производственное оборудование:<br>станки, производственные линии,<br>устройства, инструменты"
+			"contentData": "Производственное оборудование: <br class=\"hidden-xs\">станки, производственные линии, <br class=\"hidden-xs\">устройства, инструменты"
 		},
 		{
 			"contentName": "what4",
-			"contentData": "Строительные материалы:<br>сантехника, кафель, гранит, паркет,<br>ламинат, обои"
+			"contentData": "Строительные материалы: <br class=\"hidden-xs\">сантехника, кафель, гранит, паркет, <br class=\"hidden-xs\">ламинат, обои"
 		},
 		{
 			"contentName": "what5",
-			"contentData": "Осветительное оборудование:<br>лампы, люстры, прожекторы"
+			"contentData": "Осветительное оборудование: <br class=\"hidden-xs\">лампы, люстры, прожекторы"
 		},
 		{
 			"contentName": "what6",
